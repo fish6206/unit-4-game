@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Unit-4-Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-md-6 jumbotron">
+            <h1>Crystal Collector</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-6 instructions">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                    score.
+                </p>
+                <p>You win the game by matching your total score to the random number. You lose the game if your total number
+                    goes above the random number.</p>
+                <p>The value of each crystal is hidden until you click on it.</p>
+                <p>Each time the game starts the value of the crystals will change</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-3 w-number-box">
+                <div class="winning-number"></div>
+            </div>
+            <div class="col-md-2 wins-losses">
+                <p>Wins:</p>
+                <div class="wins"></div>
+                <p>Losses: </p>
+                <div class="losses"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-2">
+                <button class="btn btn-light btn-lg jewel-one">
+                    <img src="assets/blue-crystal.jpg" alt="jewel-1" style="height:150px; width:auto;">
+                </button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-light btn-lg jewel-two">
+                    <img src="assets/white-crystal.jpg" alt="jewel-2" style="height:150px; width:auto;">
+                </button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-light btn-lg jewel-three">
+                    <img src="assets/purple-crystal.jpg" alt="jewel-3" style="height:150px; width:auto;">
+                </button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-light btn-lg jewel-four">
+                    <img src="assets/green-crystal.jpg" alt="jewel-4" style="height:150px; width:auto;">
+                </button>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-3 score-text">
+                <p>Your total score is:</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 score">
+                <div class="your-score"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/game.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+
+body {
+    background-image: url("https://wallpapercave.com/wp/kZoBEvN.jpg");
+} 
+
+.jumbotron {
+    background-image: linear-gradient(to top right, #48424f, #8230db);
+    color: #f2f7f6;
+}
+
+.instructions {
+    background-image: linear-gradient(to top right, #48424f, #d311dd);
+    font-weight: bold;
+}
+.w-number-box {
+    background-image: linear-gradient(to top right, #48424f, #1bb74f);
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+.wins-losses {
+    background-image: linear-gradient(to top right, #48424f, #f2f7f6);
+    font-weight: bold;
+}
+.score-text {
+    background-image: linear-gradient(to top right, #48424f, #2c8cd6);
+    font-weight: bold;
+}
+.score {
+    background-image: linear-gradient(to top right, #48424f, #2c8cd6);
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+}
